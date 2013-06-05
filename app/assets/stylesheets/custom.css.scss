@@ -1,15 +1,27 @@
 @import "colors.css.scss";
 
+/* UNIVERSAL */
+
+.center{
+	text-align: center;
+}
+
+body{
+	min-width: 1000px;
+}
+
+
 /* NAVBAR */
 
 .navbar-inner{
+	height: 56px;
+	box-shadow: none !important;
 	background: white !important;
 }
 
-.navbar-inner{
-	margin-top: 20px;
-	height: 56px;
-	box-shadow: none !important;
+.container{
+	padding: 0px !important;
+	width: 100% !important;
 }
 
 #logo_container{
@@ -25,7 +37,6 @@
 	#logo_box{
 		color: white;
 		float: left;
-		border: 1px solid black;
 		padding: 5px;
 		margin-top: -5px;
 		width: 23px;
@@ -42,29 +53,16 @@ ul.nav{
 		margin-top: -25px;
 		font-weight: bold;
 		font-size: 12px;
-		color: black;
+		color: black !important;
 		-webkit-transition: color 0.7s;
+		padding-right: 0px !important;
+		padding-left: 50px !important;
 
 		&:hover{
-			color: white;
+			color: $darkGray !important;
 			-webkit-transition: color 1s;
 			-webkit-transition: color 0.7s;
 		}
 	}
-	a.darker_link{
-		margin-top: -25px;
-		font-weight: bold;
-		font-size: 12px;
-		-webkit-transition: color 0.7s;
-
-		&:hover{
-			-webkit-transition: color 0.7s;
-		}
-	}
 }
 
-/* UNIVERSAL */
-
-.center{
-	text-align: center;
-}
