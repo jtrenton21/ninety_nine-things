@@ -1,0 +1,1 @@
+consolidate all your belongings into 99 things. remind yourself when you must replace your belongings and how much money it costs.
