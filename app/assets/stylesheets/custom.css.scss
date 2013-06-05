@@ -1,1 +1,70 @@
 @import "colors.css.scss";
+
+/* NAVBAR */
+
+.navbar-inner{
+	background: white !important;
+}
+
+.navbar-inner{
+	margin-top: 20px;
+	height: 56px;
+	box-shadow: none !important;
+}
+
+#logo_container{
+	width: 100px;
+}
+
+#logo{
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+
+	#logo_box{
+		color: white;
+		float: left;
+		border: 1px solid black;
+		padding: 5px;
+		margin-top: -5px;
+		width: 23px;
+		background: black;
+	}
+
+	#logo_text{
+		margin-top: 16px;
+	}
+}
+
+ul.nav{
+	a.normal{
+		margin-top: -25px;
+		font-weight: bold;
+		font-size: 12px;
+		color: black;
+		-webkit-transition: color 0.7s;
+
+		&:hover{
+			color: white;
+			-webkit-transition: color 1s;
+			-webkit-transition: color 0.7s;
+		}
+	}
+	a.darker_link{
+		margin-top: -25px;
+		font-weight: bold;
+		font-size: 12px;
+		-webkit-transition: color 0.7s;
+
+		&:hover{
+			-webkit-transition: color 0.7s;
+		}
+	}
+}
+
+/* UNIVERSAL */
+
+.center{
+	text-align: center;
+}
