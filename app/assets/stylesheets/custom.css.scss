@@ -1,4 +1,10 @@
 @import "colors.css.scss";
+@import "fonts.css.scss";
+
+html{
+	background: $midYellow;
+	font-family: $source;
+}
 
 /* UNIVERSAL */
 
@@ -16,7 +22,8 @@ body{
 .navbar-inner{
 	height: 56px;
 	box-shadow: none !important;
-	background: white !important;
+	background: $midYellow !important;
+
 }
 
 .container{
